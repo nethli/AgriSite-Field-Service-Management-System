@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    tools:context=".FORegistrationActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/field_officer_registration"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtFName"
+        android:inputType="textPersonName"
+        android:hint = "@string/first_name"
+        android:autofillHints="Yes"
+        android:padding="10dp"
+        android:textSize = "24sp" />
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtLName"
+        android:inputType="textPersonName"
+        android:hint = "@string/last_name"
+        android:autofillHints="Yes"
+        android:padding="10dp"
+        android:textSize = "24sp" />
+
+    <TextView
+        android:layout_width  = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/InstructionNIC"
+        android:text = "@string/make_sure_it_matches_the_name_on_your_nic"
+        android:textSize = "20sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtBDate"
+        android:inputType="number|date"
+        android:hint = "@string/birthdate_mm_dd_yy"
+        android:textSize = "24sp"
+        android:padding="10dp"
+        android:autofillHints="Yes" />
+
+    <TextView
+        android:layout_width  = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/InstructionBDate"
+        android:text = "@string/to_register_you_need_to_be_at_least_18"
+        android:textSize = "20sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtEmail"
+        android:inputType="textEmailAddress"
+        android:hint = "@string/email_address"
+        android:autofillHints ="Yes"
+        android:padding="10dp"
+        android:textSize = "24sp"/>
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtPassword"
+        android:hint = "@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="Yes"
+        android:textSize = "24sp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width  = "400dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/EditTxtCnfPassword"
+        android:inputType="textPassword"
+        android:autofillHints="Yes"
+        android:hint = "@string/confirm_password"
+        android:textSize = "24sp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width  = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/TitleGender"
+        android:text = "@string/gender"
+        android:textSize = "24sp"
+        android:textStyle="bold"
+        android:padding = "10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="24sp"
+            android:padding="10dp" />
+
+        <RadioButton android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="24sp"
+            android:padding="10dp" />
+    </RadioGroup>
+
+    <!--<CheckBox
+        android:id="@+id/checkbox_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="All the above information are correct"/>-->
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:contentDescription="@string/select_your_working_district"/>
+
+    <Button
+        android:layout_width  = "match_parent"
+        android:layout_height = "match_parent"
+        android:id = "@+id/BtnAgree"
+        android:text = "@string/agree_and_continue"
+        android:textSize = "24sp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
+</LinearLayout>

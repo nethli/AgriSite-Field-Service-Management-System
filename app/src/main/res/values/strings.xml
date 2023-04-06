@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">AgriSite</string>
+    <string name="field_officer_registration">Field Officer Registration</string>
+    <string name="make_sure_it_matches_the_name_on_your_nic">Make sure it matches the name on your NIC.</string>
+    <string name="last_name">Last Name</string>
+    <string name="birthdate_mm_dd_yy">BirthDate (mm/dd/yy)</string>
+    <string name="to_register_you_need_to_be_at_least_18">To register, you need to be at least 18.</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="select_your_working_district">Select Your Working District.</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+    <string name="first_name">First Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="female">Female</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_sign_up_now">Not yet registered? Sign Up Now</string>
+    <string name="username">Username</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="password_here">Password Here</string>
+    <string name="register_fo">Register FO</string>
+    <string name="service_tasks">Service Tasks</string>
+    <string name="view_location">View Location</string>
+    <string name="data_analytics">Data Analytics</string>
+    <string name="agri_products">Agri Products</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="register_field_officer">Register Field Officer</string>
+    <string name="location">Location</string>
+    <string name="create_service_tasks">Create Service Tasks</string>
+    <string name="view_scheduler">Scheduler</string>
+
+    <string-array name="WorkingDistrict">
+        <item>Western</item>
+        <item>Eastern</item>
+        <item>Southern</item>
+        <item>Northern</item>
+    </string-array>
 </resources>

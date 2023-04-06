@@ -12,10 +12,10 @@
         android:theme="@style/Theme.AgriSite"
         tools:targetApi="31">
         <activity
-            android:name=".AdminDashboard"
+            android:name=".FORegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".CreateServiceTask"
+            android:name=".AdminDashboard"
             android:exported="false" />
         <activity
             android:name=".WelcomePage"
